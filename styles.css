@@ -731,11 +731,17 @@ body {
     .process-steps {
         gap: 0.3rem;
         padding: 0 1rem;
+        padding-left: 2rem;
+        margin-left: -1rem;
     }
     
     .step-item {
         min-width: 90px;
         padding: 0.75rem;
+    }
+    
+    .step-item:first-child {
+        margin-left: 20px;
     }
     
     .step-number {
@@ -760,11 +766,39 @@ body {
     .table-row {
         grid-template-columns: 60px 1fr 1fr 80px;
         font-size: 0.8rem;
+        align-items: center;
+        min-height: 60px;
+    }
+    
+    .table-row > div {
+        padding: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 60px;
     }
     
     .table-header > div:nth-child(3),
     .table-row > div:nth-child(3) {
         display: none;
+    }
+    
+    .method-number {
+        margin: 0;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .price {
+        line-height: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
     }
     
     .category-title {
