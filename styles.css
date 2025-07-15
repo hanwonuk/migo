@@ -767,7 +767,6 @@ body {
         grid-template-columns: 60px 1fr 1fr 80px;
         font-size: 0.8rem;
         align-items: center;
-        min-height: 80px;
     }
     
     .table-row > div {
@@ -775,7 +774,6 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        min-height: 80px;
     }
     
     .table-header > div:nth-child(3),
@@ -785,11 +783,6 @@ body {
     
     .method-number {
         margin: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 35px;
-        height: 35px;
     }
     
     .category-title {
